@@ -1,12 +1,34 @@
 {
-  "name": "my-button2",
+  "name": "cjh-button2",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "button组件库",
+  "keywords": [
+    "chenjinhui",
+    "button",
+    "vue",
+    "vue.js",
+    "component",
+    "components",
+    "framework"
+  ],
+  "main": "lib/xui.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name cjh --dest lib src/index.js"
   },
+  "homepage": "https://github.com/cjhcjh1996/mybutton",
+  "license": "MIT",
+  "contributors": [
+    "chenjinhui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjhcjh1996/mybutton.git"
+  },
+  "author": "chenjinhui",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
