@@ -12,7 +12,7 @@
     "components",
     "framework"
   ],
-  "main": "lib/xui.umd.min.js",
+  "main": "lib/cjh.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
