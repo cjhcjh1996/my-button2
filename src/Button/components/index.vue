@@ -17,7 +17,11 @@ export default {
   .x-button {
       display: inline-block;
       padding: 3px 6px;
-      background: #000;
-      color: #fff;
+      /* width:40px; */
+      height:30px;
+      border-radius: 10px;
+      background: #ff0;
+      color: #333;
+      line-height: 30px;
   }
 </style>
