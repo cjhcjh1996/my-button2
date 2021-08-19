@@ -1,7 +1,10 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-     <x-button type="primary">button</x-button>
+    <x-button
+      type="primary"
+      @btn-click="getName2"
+    >button</x-button>
   </div>
 </template>
 
@@ -10,6 +13,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods: {
+    getName2(data){
+      console.log(data);
+    }
   }
 }
 </script>
